@@ -5,14 +5,20 @@
         <PackageId>Wpf.DependencyResolution</PackageId>
         <Title>WPF Dependency Resolution</Title>
         <Description>WPF implementation of the Dependency Resolution Protocol</Description>
-        <Version>0.0.1</Version>
-        <ReleaseNotes>Initial Release</ReleaseNotes>
+        <Version>0.0.2</Version>
+        <ReleaseNotes>
+            v.0.0.2
+            - Renamed Repository
+
+            v.0.0.1
+            - Initial Release
+        </ReleaseNotes>
         <Authors>mr-rampage</Authors>
         <Owners>mr-rampage</Owners>
         <Copyright>Copyright © 2020</Copyright>
         <PackageOutputPath>bin\Package</PackageOutputPath>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <RepositoryUrl>https://github.com/mr-rampage/DependencyResolution</RepositoryUrl>
+        <RepositoryUrl>https://github.com/mr-rampage/Wpf.DependencyResolution</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageTags>wpf dependency-injection</PackageTags>
     </PropertyGroup>
