@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyResolution", "DependencyResolution\DependencyResolution.csproj", "{224E1F86-3FDE-45E4-9A2E-C09300C1CB4D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyResolution.Test", "DependencyResolution.Test\DependencyResolution.Test.csproj", "{867D5892-C175-4AE9-B8FA-F5C3E20115AD}"
@@ -18,5 +21,11 @@ Global
 		{867D5892-C175-4AE9-B8FA-F5C3E20115AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{867D5892-C175-4AE9-B8FA-F5C3E20115AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{867D5892-C175-4AE9-B8FA-F5C3E20115AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B27C9C3C-8E4F-4145-86E0-5F562501B068}
 	EndGlobalSection
 EndGlobal

@@ -4,10 +4,10 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DependencyResolution")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Wpf.DependencyResolution")]
+[assembly: AssemblyDescription("Implementation of the Dependency Resolution Protocol for WPF")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("mr-rampage")]
 [assembly: AssemblyProduct("DependencyResolution")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]

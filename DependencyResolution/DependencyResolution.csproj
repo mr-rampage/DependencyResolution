@@ -2,6 +2,21 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')"/>
     <PropertyGroup>
+        <PackageId>Wpf.DependencyResolution</PackageId>
+        <Title>WPF Dependency Resolution</Title>
+        <Description>WPF implementation of the Dependency Resolution Protocol</Description>
+        <Version>0.0.1</Version>
+        <ReleaseNotes>Initial Release</ReleaseNotes>
+        <Authors>mr-rampage</Authors>
+        <Owners>mr-rampage</Owners>
+        <Copyright>Copyright © 2020</Copyright>
+        <PackageOutputPath>bin\Package</PackageOutputPath>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <RepositoryUrl>https://github.com/mr-rampage/DependencyResolution</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>wpf dependency-injection</PackageTags>
+    </PropertyGroup>
+    <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
         <ProjectGuid>{224E1F86-3FDE-45E4-9A2E-C09300C1CB4D}</ProjectGuid>
@@ -33,6 +48,9 @@
         <ErrorReport>prompt</ErrorReport>
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="NuGet.Build.Tasks.Pack" Version="5.2.0"/>
+    </ItemGroup>
     <ItemGroup>
         <Reference Include="PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
             <HintPath>..\packages\Microsoft.Xaml.4.0.0.1\lib\PresentationCore.dll</HintPath>
