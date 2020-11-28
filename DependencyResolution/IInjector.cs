@@ -5,6 +5,6 @@ namespace DependencyResolution
     public interface IInjector
     {
         IInjector AddInstance<TInstance>(TInstance dependency);
-        object? ResolveInstance(Type key);
+        object ResolveInstance(Type key);
     }
 }

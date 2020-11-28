@@ -14,7 +14,7 @@ namespace DependencyResolution.Test
             return this;
         }
 
-        public object? ResolveInstance(Type key)
+        public object ResolveInstance(Type key)
         {
             return _instances.ContainsKey(key) ? _instances[key] : null;
         }

@@ -17,6 +17,6 @@ namespace DependencyResolution
         }
 
         public Type InstanceType { get; }
-        public object? Instance { get; internal set; }
+        public object Instance { get; internal set; }
     }
 }
